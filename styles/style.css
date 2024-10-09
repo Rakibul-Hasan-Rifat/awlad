@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap"); /* font-family: "Azeret Mono", serif; */
+
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+
+/* body styles */
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Azeret Mono", serif;
+}
+
+/* common styles */
+
+/* header styles */
+header.banner {
+  gap: 2rem;
+  display: flex;
+  padding: 2.5rem 7rem;
+  color: #0d1321;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-size: contain;
+  background-image: url("../assets/Hero-bg.png");
+}
+
+.banner .banner_title {
+  font-size: 3rem;
+}
+
+.banner .banner_description {
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.banner .banner_btn {
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 1.1rem 1.2rem;
+  background-color: #0d1321;
+}
+
+/* main section styles */
+main {
+  padding: 0 7rem;
+}
+
+section.why_web_sect {
+  padding: 5rem 6rem;
+  margin: 4.25rem 0;
+  border-radius: 1rem;
+  background-color: rgba(13, 19, 33, 0.2);
+}
+
+.why_web_sect .sect_title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  border: 1px solid red;
+}
+
+.why_web_sect .sect_description {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: lighter;
+  border: 1px solid red;
+}
+
+.why_web_sect .why_web_subsect {
+  gap: 2.5rem;
+  display: flex;
+  padding: 3rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.why_web_sect .why_web_subsect_inverse {
+  margin: 2rem 0;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.why_web_subsect .subsect_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.subsect_title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 1.5rem;
+}
+.subsect_description {
+  font-weight: lighter;
+}
+.subsect_btn {
+  cursor: pointer;
+  color: #0d1321;
+  font-weight: 600;
+  background: none;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #0d1321;
+  font-family: "Azeret Mono", serif;
+}
+
+.subsect_btn:hover {
+  color: #fff;
+  background-color: #0d1321;
+}
