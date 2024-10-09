@@ -57,7 +57,7 @@ section.why_web_sect {
   padding: 5rem 6rem;
   margin: 4.25rem 0;
   border-radius: 1rem;
-  background-color: rgba(13, 19, 33, 0.2);
+  background-color: rgba(13, 19, 33, 0.02);
 }
 
 .why_web_sect .sect_title {
@@ -65,14 +65,12 @@ section.why_web_sect {
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 1.5rem;
-  border: 1px solid red;
 }
 
 .why_web_sect .sect_description {
   text-align: center;
   margin-bottom: 3rem;
   font-weight: lighter;
-  border: 1px solid red;
 }
 
 .why_web_sect .why_web_subsect {
