@@ -12,6 +12,7 @@
 body {
   margin: 0 auto;
   max-width: 1440px;
+  scroll-behavior: smooth;
   font-family: "Azeret Mono", serif;
 }
 
@@ -126,10 +127,59 @@ section.why_web_sect {
   background-color: #0d1321;
 }
 
+/* current_target_section styles */
+.current_target_sect {
+  margin: 3rem 0;
+}
+
+.current_target_sect .current_target_container {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current_target_container .current_target_card {
+  gap: 1.5rem;
+  display: flex;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.current_target_card div h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.current_target_card div p {
+  font-size: 1rem;color: #0d1321;font-weight: 200;
+}
+
+.current_target_card a {
+  color: #0d1321;
+  font-weight: bold;
+}
+
+.current_target_container .html_card {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+.current_target_container .css_card {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.current_target_container .js_card {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
 /* support section styles */
 .support_sect {
   gap: 1rem;
   color: #fff;
+  margin: 5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,6 +211,7 @@ section.why_web_sect {
   background-color: #fff;
   color: #0d1321;
   border-radius: 0.5rem;
+  border: 1px solid transparent;
 }
 
 .support_sect input {
@@ -170,5 +221,6 @@ section.why_web_sect {
 .support_sect button:hover {
   color: #fff;
   cursor: pointer;
+  border: 1px solid #fff;
   background-color: #0d1321;
 }
