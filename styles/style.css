@@ -8,11 +8,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* body styles */
 body {
   margin: 0 auto;
   max-width: 1440px;
-  scroll-behavior: smooth;
   font-family: "Azeret Mono", serif;
 }
 
@@ -64,7 +67,7 @@ section.why_web_sect {
 .sect_title {
   text-align: center;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 1.5rem;
 }
 
@@ -223,4 +226,24 @@ section.why_web_sect {
   cursor: pointer;
   border: 1px solid #fff;
   background-color: #0d1321;
+}
+
+/* footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 7rem;
+  background-color: rgba(13, 19, 33, 0.03);
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+footer div {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
 }
